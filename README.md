@@ -15,6 +15,12 @@ Then generate your new project:
 yo lightweight-flask
 ```
 
+Once everything is installed, in the root of the project run:
+
+```bash
+python run.py
+```
+
 Thats it. Now feel free to make changes and create a flask driven website.
 
 ## License
