@@ -1,6 +1,6 @@
 {
   "name": "generator-lightweight-flask",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight flask micro-framework scaffold with angular and bootstrap installed",
   "homepage": "",
   "author": {
