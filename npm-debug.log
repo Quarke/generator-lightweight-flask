@@ -1,0 +1,563 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-angular',
+1 verbose cli   'generator-angular-flask',
+1 verbose cli   'generator-boilerplate',
+1 verbose cli   'generator-bootstrap',
+1 verbose cli   'generator-chrome-extension',
+1 verbose cli   'generator-flask',
+1 verbose cli   'generator-generator',
+1 verbose cli   'generator-webapp',
+1 verbose cli   'generator-karma',
+1 verbose cli   'generator-lightweight-flask',
+1 verbose cli   'generator-mocha' ]
+2 info using npm@3.9.5
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData generator-angular
+8 silly fetchPackageMetaData generator-angular-flask
+9 silly fetchPackageMetaData generator-boilerplate
+10 silly fetchPackageMetaData generator-bootstrap
+11 silly fetchPackageMetaData generator-chrome-extension
+12 silly fetchPackageMetaData generator-flask
+13 silly fetchPackageMetaData generator-generator
+14 silly fetchPackageMetaData generator-webapp
+15 silly fetchPackageMetaData generator-karma
+16 silly fetchPackageMetaData generator-lightweight-flask
+17 silly fetchPackageMetaData generator-mocha
+18 silly fetchNamedPackageData generator-angular
+19 silly mapToRegistry name generator-angular
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'generator-angular',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   name: 'generator-angular',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/generator-angular
+24 silly fetchNamedPackageData generator-angular-flask
+25 silly mapToRegistry name generator-angular-flask
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: 'generator-angular-flask',
+28 silly mapToRegistry   scope: null,
+28 silly mapToRegistry   name: 'generator-angular-flask',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/generator-angular-flask
+30 silly fetchNamedPackageData generator-boilerplate
+31 silly mapToRegistry name generator-boilerplate
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'generator-boilerplate',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'generator-boilerplate',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/generator-boilerplate
+36 silly fetchNamedPackageData generator-bootstrap
+37 silly mapToRegistry name generator-bootstrap
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry data Result {
+40 silly mapToRegistry   raw: 'generator-bootstrap',
+40 silly mapToRegistry   scope: null,
+40 silly mapToRegistry   name: 'generator-bootstrap',
+40 silly mapToRegistry   rawSpec: '',
+40 silly mapToRegistry   spec: 'latest',
+40 silly mapToRegistry   type: 'tag' }
+41 silly mapToRegistry uri https://registry.npmjs.org/generator-bootstrap
+42 silly fetchNamedPackageData generator-chrome-extension
+43 silly mapToRegistry name generator-chrome-extension
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'generator-chrome-extension',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'generator-chrome-extension',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/generator-chrome-extension
+48 silly fetchNamedPackageData generator-flask
+49 silly mapToRegistry name generator-flask
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'generator-flask',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   name: 'generator-flask',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/generator-flask
+54 silly fetchNamedPackageData generator-generator
+55 silly mapToRegistry name generator-generator
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'generator-generator',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   name: 'generator-generator',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/generator-generator
+60 silly fetchNamedPackageData generator-webapp
+61 silly mapToRegistry name generator-webapp
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'generator-webapp',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   name: 'generator-webapp',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/generator-webapp
+66 silly fetchNamedPackageData generator-karma
+67 silly mapToRegistry name generator-karma
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'generator-karma',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   name: 'generator-karma',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/generator-karma
+72 silly fetchNamedPackageData generator-lightweight-flask
+73 silly mapToRegistry name generator-lightweight-flask
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'generator-lightweight-flask',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'generator-lightweight-flask',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/generator-lightweight-flask
+78 silly fetchNamedPackageData generator-mocha
+79 silly mapToRegistry name generator-mocha
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'generator-mocha',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   name: 'generator-mocha',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/generator-mocha
+84 verbose request uri https://registry.npmjs.org/generator-lightweight-flask
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 12:04:04 PM
+87 verbose request id de8cb4bc53f3b606
+88 http request GET https://registry.npmjs.org/generator-lightweight-flask
+89 verbose request uri https://registry.npmjs.org/generator-boilerplate
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 12:04:04 PM
+92 verbose etag "4WCS89GJPRIPH0T5OH0INSCXI"
+93 http request GET https://registry.npmjs.org/generator-boilerplate
+94 verbose request uri https://registry.npmjs.org/generator-angular
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 12:04:04 PM
+97 verbose etag "E164VAO7PU6A9G3C826EMM3NF"
+98 http request GET https://registry.npmjs.org/generator-angular
+99 verbose request uri https://registry.npmjs.org/generator-angular-flask
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 12:04:04 PM
+102 verbose etag "61Y9LL1F3M1O5P66HRYDN8PZE"
+103 http request GET https://registry.npmjs.org/generator-angular-flask
+104 verbose request uri https://registry.npmjs.org/generator-bootstrap
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 12:04:04 PM
+107 verbose etag "CSBWOJ3VY2DBIRW5784LCB1CI"
+108 http request GET https://registry.npmjs.org/generator-bootstrap
+109 verbose request uri https://registry.npmjs.org/generator-generator
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 12:04:04 PM
+112 verbose etag "BIX9GME9PH1YHMRVILZYLUZ2W"
+113 http request GET https://registry.npmjs.org/generator-generator
+114 verbose request uri https://registry.npmjs.org/generator-flask
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 12:04:04 PM
+117 verbose etag "2N8TGBZ8V0TBYT1RNSN6KCZP7"
+118 http request GET https://registry.npmjs.org/generator-flask
+119 verbose request uri https://registry.npmjs.org/generator-chrome-extension
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 12:04:04 PM
+122 verbose etag "9LO2Y9TKM5NAGJWHMSYI5PENN"
+123 http request GET https://registry.npmjs.org/generator-chrome-extension
+124 verbose request uri https://registry.npmjs.org/generator-webapp
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 12:04:04 PM
+127 verbose etag "5YHZU6Z7OW64PVTC6QY7K5VM8"
+128 http request GET https://registry.npmjs.org/generator-webapp
+129 verbose request uri https://registry.npmjs.org/generator-mocha
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 12:04:04 PM
+132 verbose etag "RZRUDF2BFXFZ7QUGTU60DZC8"
+133 http request GET https://registry.npmjs.org/generator-mocha
+134 verbose request uri https://registry.npmjs.org/generator-karma
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 12:04:04 PM
+137 verbose etag "5GM39EW2LLMXWXV2DHINUJRRE"
+138 http request GET https://registry.npmjs.org/generator-karma
+139 http 304 https://registry.npmjs.org/generator-boilerplate
+140 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+140 verbose headers   via: '1.1 varnish',
+140 verbose headers   'cache-control': 'max-age=300',
+140 verbose headers   etag: '"4WCS89GJPRIPH0T5OH0INSCXI"',
+140 verbose headers   age: '4',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'x-served-by': 'cache-ord1742-ORD',
+140 verbose headers   'x-cache': 'HIT',
+140 verbose headers   'x-cache-hits': '1',
+140 verbose headers   'x-timer': 'S1475251444.655087,VS0,VE0',
+140 verbose headers   vary: 'Accept-Encoding' }
+141 silly get cb [ 304,
+141 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+141 silly get     via: '1.1 varnish',
+141 silly get     'cache-control': 'max-age=300',
+141 silly get     etag: '"4WCS89GJPRIPH0T5OH0INSCXI"',
+141 silly get     age: '4',
+141 silly get     connection: 'keep-alive',
+141 silly get     'x-served-by': 'cache-ord1742-ORD',
+141 silly get     'x-cache': 'HIT',
+141 silly get     'x-cache-hits': '1',
+141 silly get     'x-timer': 'S1475251444.655087,VS0,VE0',
+141 silly get     vary: 'Accept-Encoding' } ]
+142 verbose etag https://registry.npmjs.org/generator-boilerplate from cache
+143 verbose get saving generator-boilerplate to /Users/Tom/.npm/registry.npmjs.org/generator-boilerplate/.cache.json
+144 verbose correctMkdir /Users/Tom/.npm correctMkdir not in flight; initializing
+145 http 304 https://registry.npmjs.org/generator-bootstrap
+146 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+146 verbose headers   via: '1.1 varnish',
+146 verbose headers   'cache-control': 'max-age=300',
+146 verbose headers   etag: '"CSBWOJ3VY2DBIRW5784LCB1CI"',
+146 verbose headers   age: '4',
+146 verbose headers   connection: 'keep-alive',
+146 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+146 verbose headers   'x-cache': 'HIT',
+146 verbose headers   'x-cache-hits': '1',
+146 verbose headers   'x-timer': 'S1475251444.659305,VS0,VE0',
+146 verbose headers   vary: 'Accept-Encoding' }
+147 silly get cb [ 304,
+147 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+147 silly get     via: '1.1 varnish',
+147 silly get     'cache-control': 'max-age=300',
+147 silly get     etag: '"CSBWOJ3VY2DBIRW5784LCB1CI"',
+147 silly get     age: '4',
+147 silly get     connection: 'keep-alive',
+147 silly get     'x-served-by': 'cache-ord1735-ORD',
+147 silly get     'x-cache': 'HIT',
+147 silly get     'x-cache-hits': '1',
+147 silly get     'x-timer': 'S1475251444.659305,VS0,VE0',
+147 silly get     vary: 'Accept-Encoding' } ]
+148 verbose etag https://registry.npmjs.org/generator-bootstrap from cache
+149 verbose get saving generator-bootstrap to /Users/Tom/.npm/registry.npmjs.org/generator-bootstrap/.cache.json
+150 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+151 http 304 https://registry.npmjs.org/generator-angular-flask
+152 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+152 verbose headers   via: '1.1 varnish',
+152 verbose headers   'cache-control': 'max-age=300',
+152 verbose headers   etag: '"61Y9LL1F3M1O5P66HRYDN8PZE"',
+152 verbose headers   age: '4',
+152 verbose headers   connection: 'keep-alive',
+152 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+152 verbose headers   'x-cache': 'HIT',
+152 verbose headers   'x-cache-hits': '1',
+152 verbose headers   'x-timer': 'S1475251444.659999,VS0,VE0',
+152 verbose headers   vary: 'Accept-Encoding' }
+153 silly get cb [ 304,
+153 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+153 silly get     via: '1.1 varnish',
+153 silly get     'cache-control': 'max-age=300',
+153 silly get     etag: '"61Y9LL1F3M1O5P66HRYDN8PZE"',
+153 silly get     age: '4',
+153 silly get     connection: 'keep-alive',
+153 silly get     'x-served-by': 'cache-ord1731-ORD',
+153 silly get     'x-cache': 'HIT',
+153 silly get     'x-cache-hits': '1',
+153 silly get     'x-timer': 'S1475251444.659999,VS0,VE0',
+153 silly get     vary: 'Accept-Encoding' } ]
+154 verbose etag https://registry.npmjs.org/generator-angular-flask from cache
+155 verbose get saving generator-angular-flask to /Users/Tom/.npm/registry.npmjs.org/generator-angular-flask/.cache.json
+156 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+157 http 304 https://registry.npmjs.org/generator-generator
+158 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+158 verbose headers   via: '1.1 varnish',
+158 verbose headers   'cache-control': 'max-age=300',
+158 verbose headers   etag: '"BIX9GME9PH1YHMRVILZYLUZ2W"',
+158 verbose headers   age: '4',
+158 verbose headers   connection: 'keep-alive',
+158 verbose headers   'x-served-by': 'cache-ord1736-ORD',
+158 verbose headers   'x-cache': 'HIT',
+158 verbose headers   'x-cache-hits': '1',
+158 verbose headers   'x-timer': 'S1475251444.660228,VS0,VE0',
+158 verbose headers   vary: 'Accept-Encoding' }
+159 silly get cb [ 304,
+159 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+159 silly get     via: '1.1 varnish',
+159 silly get     'cache-control': 'max-age=300',
+159 silly get     etag: '"BIX9GME9PH1YHMRVILZYLUZ2W"',
+159 silly get     age: '4',
+159 silly get     connection: 'keep-alive',
+159 silly get     'x-served-by': 'cache-ord1736-ORD',
+159 silly get     'x-cache': 'HIT',
+159 silly get     'x-cache-hits': '1',
+159 silly get     'x-timer': 'S1475251444.660228,VS0,VE0',
+159 silly get     vary: 'Accept-Encoding' } ]
+160 verbose etag https://registry.npmjs.org/generator-generator from cache
+161 verbose get saving generator-generator to /Users/Tom/.npm/registry.npmjs.org/generator-generator/.cache.json
+162 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+163 http 304 https://registry.npmjs.org/generator-angular
+164 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+164 verbose headers   via: '1.1 varnish',
+164 verbose headers   'cache-control': 'max-age=300',
+164 verbose headers   etag: '"E164VAO7PU6A9G3C826EMM3NF"',
+164 verbose headers   age: '4',
+164 verbose headers   connection: 'keep-alive',
+164 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+164 verbose headers   'x-cache': 'HIT',
+164 verbose headers   'x-cache-hits': '1',
+164 verbose headers   'x-timer': 'S1475251444.659800,VS0,VE0',
+164 verbose headers   vary: 'Accept-Encoding' }
+165 silly get cb [ 304,
+165 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+165 silly get     via: '1.1 varnish',
+165 silly get     'cache-control': 'max-age=300',
+165 silly get     etag: '"E164VAO7PU6A9G3C826EMM3NF"',
+165 silly get     age: '4',
+165 silly get     connection: 'keep-alive',
+165 silly get     'x-served-by': 'cache-ord1735-ORD',
+165 silly get     'x-cache': 'HIT',
+165 silly get     'x-cache-hits': '1',
+165 silly get     'x-timer': 'S1475251444.659800,VS0,VE0',
+165 silly get     vary: 'Accept-Encoding' } ]
+166 verbose etag https://registry.npmjs.org/generator-angular from cache
+167 verbose get saving generator-angular to /Users/Tom/.npm/registry.npmjs.org/generator-angular/.cache.json
+168 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+169 http 304 https://registry.npmjs.org/generator-webapp
+170 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+170 verbose headers   via: '1.1 varnish',
+170 verbose headers   'cache-control': 'max-age=300',
+170 verbose headers   etag: '"5YHZU6Z7OW64PVTC6QY7K5VM8"',
+170 verbose headers   age: '172',
+170 verbose headers   connection: 'keep-alive',
+170 verbose headers   'x-served-by': 'cache-ord1720-ORD',
+170 verbose headers   'x-cache': 'HIT',
+170 verbose headers   'x-cache-hits': '1',
+170 verbose headers   'x-timer': 'S1475251444.661681,VS0,VE0',
+170 verbose headers   vary: 'Accept-Encoding' }
+171 silly get cb [ 304,
+171 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+171 silly get     via: '1.1 varnish',
+171 silly get     'cache-control': 'max-age=300',
+171 silly get     etag: '"5YHZU6Z7OW64PVTC6QY7K5VM8"',
+171 silly get     age: '172',
+171 silly get     connection: 'keep-alive',
+171 silly get     'x-served-by': 'cache-ord1720-ORD',
+171 silly get     'x-cache': 'HIT',
+171 silly get     'x-cache-hits': '1',
+171 silly get     'x-timer': 'S1475251444.661681,VS0,VE0',
+171 silly get     vary: 'Accept-Encoding' } ]
+172 verbose etag https://registry.npmjs.org/generator-webapp from cache
+173 verbose get saving generator-webapp to /Users/Tom/.npm/registry.npmjs.org/generator-webapp/.cache.json
+174 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+175 http 304 https://registry.npmjs.org/generator-flask
+176 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+176 verbose headers   via: '1.1 varnish',
+176 verbose headers   'cache-control': 'max-age=300',
+176 verbose headers   etag: '"2N8TGBZ8V0TBYT1RNSN6KCZP7"',
+176 verbose headers   age: '4',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   'x-served-by': 'cache-ord1745-ORD',
+176 verbose headers   'x-cache': 'HIT',
+176 verbose headers   'x-cache-hits': '1',
+176 verbose headers   'x-timer': 'S1475251444.661975,VS0,VE0',
+176 verbose headers   vary: 'Accept-Encoding' }
+177 silly get cb [ 304,
+177 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+177 silly get     via: '1.1 varnish',
+177 silly get     'cache-control': 'max-age=300',
+177 silly get     etag: '"2N8TGBZ8V0TBYT1RNSN6KCZP7"',
+177 silly get     age: '4',
+177 silly get     connection: 'keep-alive',
+177 silly get     'x-served-by': 'cache-ord1745-ORD',
+177 silly get     'x-cache': 'HIT',
+177 silly get     'x-cache-hits': '1',
+177 silly get     'x-timer': 'S1475251444.661975,VS0,VE0',
+177 silly get     vary: 'Accept-Encoding' } ]
+178 verbose etag https://registry.npmjs.org/generator-flask from cache
+179 verbose get saving generator-flask to /Users/Tom/.npm/registry.npmjs.org/generator-flask/.cache.json
+180 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+181 http 304 https://registry.npmjs.org/generator-chrome-extension
+182 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+182 verbose headers   via: '1.1 varnish',
+182 verbose headers   'cache-control': 'max-age=300',
+182 verbose headers   etag: '"9LO2Y9TKM5NAGJWHMSYI5PENN"',
+182 verbose headers   age: '4',
+182 verbose headers   connection: 'keep-alive',
+182 verbose headers   'x-served-by': 'cache-ord1739-ORD',
+182 verbose headers   'x-cache': 'HIT',
+182 verbose headers   'x-cache-hits': '1',
+182 verbose headers   'x-timer': 'S1475251444.663170,VS0,VE0',
+182 verbose headers   vary: 'Accept-Encoding' }
+183 silly get cb [ 304,
+183 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     'cache-control': 'max-age=300',
+183 silly get     etag: '"9LO2Y9TKM5NAGJWHMSYI5PENN"',
+183 silly get     age: '4',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-ord1739-ORD',
+183 silly get     'x-cache': 'HIT',
+183 silly get     'x-cache-hits': '1',
+183 silly get     'x-timer': 'S1475251444.663170,VS0,VE0',
+183 silly get     vary: 'Accept-Encoding' } ]
+184 verbose etag https://registry.npmjs.org/generator-chrome-extension from cache
+185 verbose get saving generator-chrome-extension to /Users/Tom/.npm/registry.npmjs.org/generator-chrome-extension/.cache.json
+186 verbose correctMkdir /Users/Tom/.npm correctMkdir already in flight; waiting
+187 http 304 https://registry.npmjs.org/generator-mocha
+188 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+188 verbose headers   via: '1.1 varnish',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   etag: '"RZRUDF2BFXFZ7QUGTU60DZC8"',
+188 verbose headers   age: '171',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+188 verbose headers   'x-cache': 'HIT',
+188 verbose headers   'x-cache-hits': '2',
+188 verbose headers   'x-timer': 'S1475251444.676308,VS0,VE0',
+188 verbose headers   vary: 'Accept-Encoding' }
+189 silly get cb [ 304,
+189 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+189 silly get     via: '1.1 varnish',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     etag: '"RZRUDF2BFXFZ7QUGTU60DZC8"',
+189 silly get     age: '171',
+189 silly get     connection: 'keep-alive',
+189 silly get     'x-served-by': 'cache-ord1731-ORD',
+189 silly get     'x-cache': 'HIT',
+189 silly get     'x-cache-hits': '2',
+189 silly get     'x-timer': 'S1475251444.676308,VS0,VE0',
+189 silly get     vary: 'Accept-Encoding' } ]
+190 verbose etag https://registry.npmjs.org/generator-mocha from cache
+191 verbose get saving generator-mocha to /Users/Tom/.npm/registry.npmjs.org/generator-mocha/.cache.json
+192 verbose correctMkdir /Users/Tom/.npm correctMkdir not in flight; initializing
+193 http 304 https://registry.npmjs.org/generator-karma
+194 verbose headers { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+194 verbose headers   via: '1.1 varnish',
+194 verbose headers   'cache-control': 'max-age=300',
+194 verbose headers   etag: '"5GM39EW2LLMXWXV2DHINUJRRE"',
+194 verbose headers   age: '4',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'x-served-by': 'cache-ord1739-ORD',
+194 verbose headers   'x-cache': 'HIT',
+194 verbose headers   'x-cache-hits': '1',
+194 verbose headers   'x-timer': 'S1475251444.675416,VS0,VE0',
+194 verbose headers   vary: 'Accept-Encoding' }
+195 silly get cb [ 304,
+195 silly get   { date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     'cache-control': 'max-age=300',
+195 silly get     etag: '"5GM39EW2LLMXWXV2DHINUJRRE"',
+195 silly get     age: '4',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-ord1739-ORD',
+195 silly get     'x-cache': 'HIT',
+195 silly get     'x-cache-hits': '1',
+195 silly get     'x-timer': 'S1475251444.675416,VS0,VE0',
+195 silly get     vary: 'Accept-Encoding' } ]
+196 verbose etag https://registry.npmjs.org/generator-karma from cache
+197 verbose get saving generator-karma to /Users/Tom/.npm/registry.npmjs.org/generator-karma/.cache.json
+198 verbose correctMkdir /Users/Tom/.npm correctMkdir not in flight; initializing
+199 http 404 https://registry.npmjs.org/generator-lightweight-flask
+200 verbose headers { 'content-type': 'application/json',
+200 verbose headers   'cache-control': 'max-age=0',
+200 verbose headers   'content-length': '2',
+200 verbose headers   'accept-ranges': 'bytes',
+200 verbose headers   date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+200 verbose headers   via: '1.1 varnish',
+200 verbose headers   age: '0',
+200 verbose headers   connection: 'keep-alive',
+200 verbose headers   'x-served-by': 'cache-ord1730-ORD',
+200 verbose headers   'x-cache': 'MISS',
+200 verbose headers   'x-cache-hits': '0',
+200 verbose headers   'x-timer': 'S1475251444.639325,VS0,VE133',
+200 verbose headers   vary: 'Accept-Encoding' }
+201 silly get cb [ 404,
+201 silly get   { 'content-type': 'application/json',
+201 silly get     'cache-control': 'max-age=0',
+201 silly get     'content-length': '2',
+201 silly get     'accept-ranges': 'bytes',
+201 silly get     date: 'Fri, 30 Sep 2016 16:04:04 GMT',
+201 silly get     via: '1.1 varnish',
+201 silly get     age: '0',
+201 silly get     connection: 'keep-alive',
+201 silly get     'x-served-by': 'cache-ord1730-ORD',
+201 silly get     'x-cache': 'MISS',
+201 silly get     'x-cache-hits': '0',
+201 silly get     'x-timer': 'S1475251444.639325,VS0,VE133',
+201 silly get     vary: 'Accept-Encoding' } ]
+202 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-lightweight-flask
+202 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+202 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+202 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+202 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+202 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+202 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+202 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+202 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+202 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+202 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+202 silly fetchPackageMetaData  error for generator-lightweight-flask { [Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-lightweight-flask]
+202 silly fetchPackageMetaData   pkgid: 'generator-lightweight-flask',
+202 silly fetchPackageMetaData   statusCode: 404,
+202 silly fetchPackageMetaData   code: 'E404' }
+203 silly rollbackFailedOptional Starting
+204 silly rollbackFailedOptional Finishing
+205 silly runTopLevelLifecycles Starting
+206 silly runTopLevelLifecycles Finishing
+207 silly install printInstalled
+208 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-lightweight-flask
+208 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+208 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+208 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+208 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+208 verbose stack     at emitTwo (events.js:100:13)
+208 verbose stack     at Request.emit (events.js:185:7)
+208 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+208 verbose stack     at emitOne (events.js:95:20)
+208 verbose stack     at Request.emit (events.js:182:7)
+208 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+209 verbose statusCode 404
+210 verbose pkgid generator-lightweight-flask
+211 verbose cwd /Users/Tom/Desktop/Lightweight-Flask/generator-lightweight-flask
+212 error Darwin 16.0.0
+213 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "generator-angular" "generator-angular-flask" "generator-boilerplate" "generator-bootstrap" "generator-chrome-extension" "generator-flask" "generator-generator" "generator-webapp" "generator-karma" "generator-lightweight-flask" "generator-mocha"
+214 error node v5.10.1
+215 error npm  v3.9.5
+216 error code E404
+217 error 404 Registry returned 404 for GET on https://registry.npmjs.org/generator-lightweight-flask
+218 error 404
+219 error 404 'generator-lightweight-flask' is not in the npm registry.
+220 error 404 You should bug the author to publish it (or use the name yourself!)
+221 error 404 Note that you can also install from a
+222 error 404 tarball, folder, http url, or git url.
+223 verbose exit [ 1, true ]
