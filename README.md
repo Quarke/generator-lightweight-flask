@@ -1,5 +1,4 @@
-# generator-lightweight-flask [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> A lightweight flask micro-framework scaffold with angular and bootstrap installed
+# generator-lightweight-flask [![NPM version][npm-image]][npm-url] 
 
 ## Installation
 
@@ -16,7 +15,7 @@ Then generate your new project:
 yo lightweight-flask
 ```
 
-## Thats it. Now feel free to make changes and create a flask driven website.
+Thats it. Now feel free to make changes and create a flask driven website.
 
 ## License
 
