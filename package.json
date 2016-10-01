@@ -19,7 +19,7 @@
   ],
   "dependencies": {
     "chalk": "^1.0.0",
-    "tabtab": "^1.4.3",
+    "tabtab": "^2.0.0",
     "yeoman-generator": "^0.23.0",
     "yosay": "^1.0.0"
   },
