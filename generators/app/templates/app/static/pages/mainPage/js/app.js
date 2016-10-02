@@ -1,5 +1,5 @@
 // Declare app level module which depends on filters, and services
-var app = angular.module('SafetyTools', ['ngResource', 'ngAnimate', 'ngRoute', 'ui.bootstrap', 'ui.date', 'pageslide-directive'])
+var app = angular.module('flashSPA', ['ngResource', 'ngAnimate', 'ngRoute', 'ui.bootstrap', 'ui.date', 'pageslide-directive'])
 .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
     .when('/', {
